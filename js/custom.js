@@ -32,7 +32,8 @@ $(document).ready(function() {
 
     var clock = $('.clock').FlipClock(3600 * 24 * 70, {
         clockFace: 'DailyCounter',
-        countdown: true
+        countdown: true,
+		language:'vn'
     });
 	clock.loadLanguage("vn");
     $('.fade-left').waypoint(function() {
