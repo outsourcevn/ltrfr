@@ -35,10 +35,21 @@
 			window.location.href="index.html";
 		}else
 		if (type==1){
-			window.location.href="index-en.html";
+			window.location.href="index-cn.html";
 		}else
 		if (type==2){
 			window.location.href="index-vn.html";
+		}
+	}
+	function wp(type){
+		if (type==0){
+			window.location.href="whitepaper-en.pdf";
+		}else
+		if (type==1){
+			window.location.href="whitepaper-cn.pdf";
+		}else
+		if (type==2){
+			window.location.href="whitepaper-vn.pdf";
 		}
 	}
 </script>
@@ -57,9 +68,22 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navigation">
 				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+										<div class="dropdown">
+										  <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											White Paper<span class="caret"></span>
+										</a>
+										  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											<button class="dropdown-item" type="button" onclick="wp(0);">English</button>
+											<button class="dropdown-item" type="button" onclick="wp(1);">中国</button>
+											<button class="dropdown-item" type="button" onclick="wp(2);">Tiếng Việt</button>
+										  </div>
+										</div>
+											
+					</li>
 					<li class="nav-ite"><a class="nav-link" href="#start">Get started<span class="sr-only"></span></a></li>
 					<li class="nav-item"><a class="nav-link" href="#about">About<span class="sr-only"></span></a></li>
-					<li class="nav-item"><a class="nav-link" href="#ico">ICO Distribution</a></li>
+					<li class="nav-item"><a class="nav-link" href="#ico">Distribution</a></li>
 					<li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap<span class="sr-only"></span></a></li>
 					<li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
 					<li class="nav-item"><a class="nav-link" href="../HTML-dashboard/ui-login.html">Login</a></li>
@@ -180,7 +204,7 @@
 			                           <span class="pull-right">LTR Hardcap</span>
 			                        </div>
 			                        <div class="buy-tokens-wrapper text-center mt30 o-hidden">
-			                        	<a href="" class="buy-tokens has-gradient">Buy LTR Tokens</a>
+			                        	<a href="#" class="buy-tokens has-gradient">Buy LTR Tokens</a>
 			                        </div>
 								</div>
 								
@@ -313,7 +337,7 @@
 	            </div>
 	            <div class="col-md-6">
 	                <div class="money-exchange-left" >
-	                	<img style="max-height: 798px" class="center-block" src="images/phone.png" alt="Phone">
+	                	<img style="max-height: 798px" class="center-block" src="images/banner.png" alt="Phone">
 	                </div>
 	            </div>
 	        </div>
@@ -451,8 +475,7 @@
 	                                <span class="icon flaticon-target"></span>
 	                            </div>
 	                            <h3><a href="#">Initial coin offering dashboard</a></h3>
-	                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, repellat tempora ullam dolor, vel voluptas quo aut autem similique, voluptatum blanditiis. Hic vitae nostrum, quidem cupiditate, vero ullam excepturi dicta!</div>
-	                            
+	                            <div class="text">In your dashboard, you can manage your ltr tokens, or send to eth wallet to save your token.</div>	                            
 	                        </div>
 	                    </div>
 
@@ -462,8 +485,8 @@
 	                            <div class="icon-box">
 	                                <span class="icon flaticon-speedometer"></span>
 	                            </div>
-	                            <h3><a href="#">Real time prices and marketcap</a></h3>
-	                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, repellat tempora ullam dolor, vel voluptas quo aut autem similique, voluptatum blanditiis. Hic vitae nostrum, quidem cupiditate, vero ullam excepturi dicta!</div>
+	                            <h3><a href="#">For future global lottery</a></h3>
+	                            <div class="text">We want create a Mega Lottery for world</div>
 	                        </div>
 	                    </div>
 	                    
@@ -473,8 +496,8 @@
 	                            <div class="icon-box">
 	                                <span class="icon flaticon-cogwheel" style="font-weight: 600;"></span>
 	                            </div>
-	                            <h3><a href="#">Super easy to adjust, edit or use</a></h3>
-	                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, repellat tempora ullam dolor, vel voluptas quo aut autem similique, voluptatum blanditiis. Hic vitae nostrum, quidem cupiditate, vero ullam excepturi dicta!</div>
+	                            <h3><a href="#">Super easy to play and use</a></h3>
+	                            <div class="text"></div>
 	                        </div>
 	                    </div>
 	                    

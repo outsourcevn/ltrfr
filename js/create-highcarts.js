@@ -46,12 +46,12 @@ Highcharts.chart('container', {
     series: [{
         name: 'Brands',
         data: [
-            { name: '0.7 $', y: 12 },
-            { name: '0.9 $', y: 15 },
-            { name: '0.95 $', y: 16 },
-            { name: '1.05 $', y: 17 },
-            { name: '1.10 $', y: 19 },
-            { name: '1.20 $', y: 21 }
+            { name: '0.0005 $', y: 24 },
+            { name: '0.0006 $', y: 20 },
+            { name: '0.0007 $', y: 16 },
+            { name: '0.0008 $', y: 13 },
+            { name: '0.0009 $', y: 10 },
+            { name: '0.00095 $', y: 17 }
             
         ]
     }]
